@@ -1,6 +1,6 @@
 <?php
 
-namespace marcusvbda\vstack\ValidadorCpfCnpj;
+namespace marcusvbda\ValidadorCpfCnpj;
 
 abstract class DocumentoAbstract
 {

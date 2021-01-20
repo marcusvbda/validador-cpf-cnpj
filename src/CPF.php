@@ -1,8 +1,8 @@
 <?php
 
-namespace marcusvbda\vstack\ValidadorCpfCnpj;
+namespace marcusvbda\ValidadorCpfCnpj;
 
-use marcusvbda\vstack\DocumentoAbstract;
+use marcusvbda\DocumentoAbstract;
 
 class CPF extends DocumentoAbstract
 {
