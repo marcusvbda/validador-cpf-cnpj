@@ -2,7 +2,7 @@
 
 namespace marcusvbda\ValidadorCpfCnpj;
 
-use marcusvbda\DocumentoAbstract;
+use marcusvbda\ValidadorCpfCnpj\DocumentoAbstract;
 
 class CNPJ extends DocumentoAbstract
 {
