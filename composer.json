@@ -31,5 +31,5 @@
         "test": [
             "vendor/bin/phpunit"
         ]
-    },
+    }
 }
