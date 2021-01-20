@@ -16,20 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bissolli\\ValidadorCpfCnpj\\": "src/"
+            "marcusvbda\\ValidadorCpfCnpj\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Bissolli\\ValidadorCpfCnpj\\Test\\": "tests/"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "scripts": {
-        "test": [
-            "vendor/bin/phpunit"
-        ]
     }
 }
