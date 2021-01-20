@@ -1,0 +1,35 @@
+{
+    "name": "marcusvbda/validador-cpf-cnpj",
+    "license": "MIT",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marcus Vinicius Bassalobre de Assis",
+            "email": "bassalobre.vinicius@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bissolli\\ValidadorCpfCnpj\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bissolli\\ValidadorCpfCnpj\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    },
+}
