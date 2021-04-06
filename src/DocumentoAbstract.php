@@ -18,7 +18,7 @@ abstract class DocumentoAbstract
 	 */
 	public function __construct($value = null)
 	{
-		if ($value) $this->setValue($value);
+		$this->setValue(@$value ? $value : "");
 	}
 
 
